@@ -1,3 +1,5 @@
+import CurrentDate from "./CurrentDate";
+
 import React from "react";
 // const ChildComponent = () => {
 //   return <div>I am a Child</div>;
@@ -13,6 +15,9 @@ const TypesOfCheese = () => {
         <li>Manchego</li>
       </ul>
       {/* Use React to Render Nested Component */}
+      <p>
+        The current date is: <CurrentDate date={Date()} />
+      </p>
     </>
   );
 };
