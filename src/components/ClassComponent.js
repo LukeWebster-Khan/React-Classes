@@ -36,7 +36,7 @@ class MyComponent extends React.Component {
     return (
       <div>
         <h1>Hello World</h1>
-        <h2>This is a class based compoent</h2>
+        <h2>This is a class based component</h2>
         {/* <ChildComponent /> */}
         <Cheese />
       </div>
