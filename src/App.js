@@ -6,6 +6,7 @@ import Counter from "./components/Counter";
 import ControlledInput from "./components/ControlledInput";
 import AgeChecker from "./components/AgeChecker";
 import Conditional from "./components/Conditional";
+import Chance from "./components/Chance";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
       <ControlledInput />
       <AgeChecker />
       <Conditional />
+      <Chance />
     </>
   );
 }
